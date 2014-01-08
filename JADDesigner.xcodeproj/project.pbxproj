@@ -22,6 +22,7 @@
 		F139A9D61867655700066B67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F139A9B51867655700066B67 /* UIKit.framework */; };
 		F139A9DE1867655700066B67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F139A9DC1867655700066B67 /* InfoPlist.strings */; };
 		F139A9E01867655700066B67 /* JADDesignerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F139A9DF1867655700066B67 /* JADDesignerTests.m */; };
+		F139A9EB1867CC0900066B67 /* JADTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F139A9EA1867CC0900066B67 /* JADTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		F139A9DB1867655700066B67 /* JADDesignerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JADDesignerTests-Info.plist"; sourceTree = "<group>"; };
 		F139A9DD1867655700066B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F139A9DF1867655700066B67 /* JADDesignerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JADDesignerTests.m; sourceTree = "<group>"; };
+		F139A9E91867CC0900066B67 /* JADTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JADTestClass.h; sourceTree = "<group>"; };
+		F139A9EA1867CC0900066B67 /* JADTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JADTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				F139A9CA1867655700066B67 /* JADSecondViewController.m */,
 				F139A9CC1867655700066B67 /* Images.xcassets */,
 				F139A9B81867655700066B67 /* Supporting Files */,
+				F139A9E91867CC0900066B67 /* JADTestClass.h */,
+				F139A9EA1867CC0900066B67 /* JADTestClass.m */,
 			);
 			path = JADDesigner;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F139A9EB1867CC0900066B67 /* JADTestClass.m in Sources */,
 				F139A9C81867655700066B67 /* JADFirstViewController.m in Sources */,
 				F139A9C21867655700066B67 /* JADAppDelegate.m in Sources */,
 				F139A9CB1867655700066B67 /* JADSecondViewController.m in Sources */,
